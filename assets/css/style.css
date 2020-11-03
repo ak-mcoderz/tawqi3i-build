@@ -109,10 +109,10 @@ a:hover {
 }
 
 .header_main{
-  background-color: #0877d0;
+  background-color: #1192fa;
   padding: 20px;
   margin-left: 200px;
-  box-shadow: 2px 2px 6px 1px #00000099;
+  box-shadow: 5px -5px 6px 1px #00000099;
 }
 
 .left_sidebar{
