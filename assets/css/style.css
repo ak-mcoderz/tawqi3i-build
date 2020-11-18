@@ -215,6 +215,10 @@ a:hover {
   padding: 8px;
   min-height: 138px;
 }
+.radio_draft .custom-control-input:checked~.custom-control-label::before{
+  border-color: #a9a9a9;
+  background-color: #808080;  
+}
 .radio_awaiting .custom-control-input:checked~.custom-control-label::before{
   border-color: #2f78e4;
   background-color: #2f78e4;  
