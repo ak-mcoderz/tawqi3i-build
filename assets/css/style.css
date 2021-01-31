@@ -170,6 +170,8 @@ a:hover {
 .dasboard_card{
   border: 1px solid #7c7b7b;
   height: 110px;
+  border-radius: 5px;
+  /* color: white; */
 }
 .card_header span{
   border-bottom: 1px solid #7c7b7b;
@@ -214,6 +216,7 @@ a:hover {
   border: 1px solid #6b6b6b;
   padding: 8px;
   min-height: 138px;
+  border-radius: 5px;
 }
 .radio_draft .custom-control-input:checked~.custom-control-label::before{
   border-color: #a9a9a9;
@@ -245,4 +248,13 @@ a:hover {
   justify-content: center;
   text-align: center;
   width: 100%;
+}
+.w-10{
+  width: 10%;
+}
+.w-40{
+  width: 40%;
+}
+.w-80{
+  width: 80%;
 }
