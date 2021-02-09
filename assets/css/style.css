@@ -176,6 +176,7 @@ a:hover {
 .card_header span{
   border-bottom: 1px solid #7c7b7b;
   padding-bottom: 8px;
+  font-weight: 900;
 }
 .document_upperpart .document_seacrh{
   position: relative;
