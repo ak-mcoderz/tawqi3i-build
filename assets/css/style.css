@@ -98,39 +98,37 @@ a:hover {
   font-size: 70px;
 }
 
-
 .form-control:focus {
   box-shadow: none;
 }
 
-
-.header_fixed_height{
+.header_fixed_height {
   height: 153.2px;
 }
 
-.header_main{
+.header_main {
   background-color: #1192fa;
   padding: 20px;
   margin-left: 200px;
   box-shadow: 5px -5px 6px 1px #00000099;
 }
 
-.left_sidebar{
+.left_sidebar {
   position: fixed;
-    z-index: 999;
-    top: 0px;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    overflow: hidden;
-    overflow-y: auto;
-    /* min-height: 100vh; */
-    transition: all 0.7s ease;
-    padding: 15px;
-    background-color: #1192fa;
+  z-index: 999;
+  top: 0px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  /* min-height: 100vh; */
+  transition: all 0.7s ease;
+  padding: 15px;
+  background-color: #1192fa;
 }
 
-.left_sidebar .nav_list{
+.left_sidebar .nav_list {
   min-height: calc(100vh - 184px);
 }
 
@@ -141,7 +139,7 @@ a:hover {
   min-height: calc(100vh - 160px);
 }
 
-.user_login{
+.user_login {
   background-color: #1192fa;
   height: 100vh;
   display: flex;
@@ -149,93 +147,93 @@ a:hover {
   justify-content: center;
 }
 
-.logo_part{
+.logo_part {
   width: 350px;
 }
-.login_part{
+.login_part {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0px 7px 10px 3px #00000070;
 }
-.profile_icon{
+.profile_icon {
   height: 138.2px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.profile_icon i{
+.profile_icon i {
   font-size: 110px;
   color: #fff;
 }
-.dasboard_card{
+.dasboard_card {
   border: 1px solid #7c7b7b;
-  height: 110px;
+  min-height: 150px;
   border-radius: 5px;
   /* color: white; */
 }
-.card_header span{
+.card_header span {
   border-bottom: 1px solid #7c7b7b;
   padding-bottom: 8px;
   font-weight: 900;
 }
-.document_upperpart .document_seacrh{
+.document_upperpart .document_seacrh {
   position: relative;
 }
-.document_upperpart .document_seacrh>i{
+.document_upperpart .document_seacrh > i {
   position: absolute;
   left: 18px;
   top: 12px;
   color: #495057;
 }
-.document_filter{
+.document_filter {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
-.document_filter .filter_seperate{
- margin-right: 24px; 
+.document_filter .filter_seperate {
+  margin-right: 24px;
 }
-.document_filter .filter_seperate:last-child{
- margin-right: 0px; 
+.document_filter .filter_seperate:last-child {
+  margin-right: 0px;
 }
-.document_filter .filter_seperate:first-child{
+.document_filter .filter_seperate:first-child {
   width: 30%;
 }
-.document_filter .filter_seperate:last-child{
+.document_filter .filter_seperate:last-child {
   width: 20%;
 }
-.document_lowerpart{
+.document_lowerpart {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
 }
-.document_lowerpart>div i{
+.document_lowerpart > div i {
   font-size: 125px;
 }
-.document_lowerpart .document_card{
+.document_lowerpart .document_card {
   border: 1px solid #6b6b6b;
   padding: 8px;
   min-height: 138px;
   border-radius: 5px;
 }
-.radio_draft .custom-control-input:checked~.custom-control-label::before{
+.radio_draft .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #a9a9a9;
-  background-color: #808080;  
+  background-color: #808080;
 }
-.radio_awaiting .custom-control-input:checked~.custom-control-label::before{
+.radio_awaiting .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #2f78e4;
-  background-color: #2f78e4;  
+  background-color: #2f78e4;
 }
-.radio_completed .custom-control-input:checked~.custom-control-label::before{
+.radio_completed .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #059e0f;
   background-color: #059e0f;
 }
-.radio_rejected .custom-control-input:checked~.custom-control-label::before{
+.radio_rejected .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #cf2a27;
   background-color: #cf2a27;
 }
-.loader{
+.loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -250,12 +248,37 @@ a:hover {
   text-align: center;
   width: 100%;
 }
-.w-10{
+.w-10 {
   width: 10%;
 }
-.w-40{
+.w-30 {
+  width: 30%;
+}
+.w-40 {
   width: 40%;
 }
-.w-80{
-  width: 80%;
+.w-45 {
+  width: 45%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 69%;
+}
+.w-80 {
+  width: 79%;
+}
+
+.btn_size {
+  min-width: 105px;
+}
+.ml-7{
+  margin-left: 7%;
+}
+.ngx-pagination{
+  margin-bottom: 0 !important;
+}
+.ngx-pagination .current{
+  background: #2f78e4 !important;
 }
