@@ -186,8 +186,8 @@ a:hover {
 }
 .document_upperpart .document_seacrh>i{
   position: absolute;
-  left: 18px;
-  top: 12px;
+  left: 90%;
+  top: 10px;
   color: #495057;
 }
 .document_filter{
